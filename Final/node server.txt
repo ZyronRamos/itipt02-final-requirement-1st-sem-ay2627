@@ -1,0 +1,26 @@
+node server.js
+
+.\venv\Scripts\Activate.ps1
+pip install mysql-connector-python fastapi uvicorn python-dotenv pwdlib
+uvicorn main:app --reload
+
+git init
+git add .
+git config --global user.email "ramoszyron7@gmail.com"
+git config --global user.name "ZyronRamos"
+git commit -am "ver 1.0"
+git remote add origin https://github.com/ZyronRamos/itipt02-final-requirement-1st-sem-ay2627.git
+git remote -v
+git push origin master
+
+git init
+git branch -M main
+git config --local user.name "ZyronRamos"
+git config --local user.email "ramoszyron7@gmail.com"
+git add .
+git commit -m "ver 1.0"
+git remote add origin git@github-acc1:ZyronRamos/itipt02-final-requirement-1st-sem-ay2627.git
+git remote add origin git@github-acc1:ZyronRamos/itipt02-final-requirement-1st-sem-ay2627.git
+git push -u origin main
+
+697F-2827
